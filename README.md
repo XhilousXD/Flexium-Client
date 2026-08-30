@@ -1,116 +1,284 @@
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/program_info/org.prismlauncher.PrismLauncher.logo-darkmode.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/program_info/org.prismlauncher.PrismLauncher.logo.svg">
-  <img alt="Prism Launcher" src="/program_info/org.prismlauncher.PrismLauncher.logo.svg" width="40%">
-</picture>
-</p>
+<div align="center">
 
-<p align="center">
-  Prism Launcher is a custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once.<br />
-  <br />This is a <b>fork</b> of the MultiMC Launcher and is <b>not</b> endorsed by it.
-</p>
+<img src="assets/flexium-logo.png" alt="Flexium Logo" width="180">
 
-## Installation
+# ✦ Flexium ✦
 
-- All downloads and instructions for Prism Launcher can be found on our [Website](https://prismlauncher.org/download).
-- Last build status can be found in the [GitHub Actions](https://github.com/PrismLauncher/PrismLauncher/actions) tab (this also includes the pull requests status).
+### A modern, lightweight, and customizable Minecraft Java Edition launcher.
 
-<p align="center">
-<a href="https://repology.org/project/prismlauncher/versions">
-    <img src="https://repology.org/badge/vertical-allrepos/prismlauncher.svg?columns=3" alt="Packaging status">
-</a>
-</p>
+<br>
 
-### Development Builds
+[![Website](https://img.shields.io/badge/🌐_WEBSITE-Flexium-8A2BE2?style=for-the-badge&labelColor=1a1a1a)](YOUR_OFFICIAL_WEBSITE_LINK)
+[![Discord](https://img.shields.io/badge/💬_DISCORD-Join_Us-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=1a1a1a)](YOUR_DISCORD_INVITE_LINK)
+[![Download](https://img.shields.io/badge/⬇_DOWNLOAD-Latest-6C4AB6?style=for-the-badge&labelColor=1a1a1a)](YOUR_DOWNLOAD_LINK)
 
-Please understand that these builds are not intended for most users. There may be bugs, and other instabilities. You have been warned.
+<br>
 
-There are development builds available through:
+![Release](https://img.shields.io/github/v/release/YOUR_USERNAME/YOUR_REPO?style=flat-square&color=8A2BE2&label=release)
+![License](https://img.shields.io/github/license/YOUR_USERNAME/YOUR_REPO?style=flat-square&color=6C4AB6)
+![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO?style=flat-square&color=5865F2)
+![Issues](https://img.shields.io/github/issues/YOUR_USERNAME/YOUR_REPO?style=flat-square&color=orange)
+![Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO?style=flat-square&color=blueviolet)
 
-- [GitHub Actions](https://github.com/PrismLauncher/PrismLauncher/actions) (includes builds from pull requests opened by contributors)
-- [nightly.link](https://prismlauncher.org/nightly) (this will always point only to the latest version of develop)
+<br>
 
-These have debug information in the binaries, so their file sizes are relatively larger.
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
-Prebuilt Development builds are provided for **Linux**, **Windows** and **macOS**.
+</div>
 
-On Linux, we also offer our own [Flatpak nightly repository](https://github.com/PrismLauncher/flatpak). Most software centers are able to install it by opening [this link](https://flatpak.prismlauncher.org/prismlauncher-nightly.flatpakref).
+<br>
 
-## Community & Support
+<div align="center">
+  <sub>Manage versions, isolate instances, install mod loaders, and configure Java — all from one place.</sub>
+</div>
 
-Feel free to create a GitHub issue if you find a bug or want to suggest a new feature. We have multiple community spaces where other community members can help you:
+<br>
 
-- **Our Discord server:**
+## 📖 Table of Contents
 
-[![Prism Launcher Discord server](https://discordapp.com/api/guilds/1031648380885147709/widget.png?style=banner3)](https://prismlauncher.org/discord)
+<table>
+<tr>
+<td valign="top" width="50%">
 
-- **Our Matrix space:**
+- [🎮 About](#-about-flexium)
+- [✨ Features](#-features)
+- [🧩 Mod Loader Support](#-mod-loader-support)
+- [📦 Instance System](#-instance-system)
+- [☕ Java Runtime](#-java-runtime-management)
+- [💻 Installation](#-installation)
 
-[![Prism Launcher Space](https://img.shields.io/matrix/prismlauncher:matrix.org?style=for-the-badge&label=Matrix%20Space&logo=matrix&color=purple)](https://prismlauncher.org/matrix)
+</td>
+<td valign="top" width="50%">
 
-- **Our Subreddit:**
+- [🐛 Bug Reports](#-bug-reports)
+- [🤝 Contributing](#-contributing)
+- [🚀 Roadmap](#-roadmap)
+- [🌐 Community](#-community)
+- [📄 License](#-license)
+- [⚠️ Disclaimer](#️-disclaimer)
 
-[![r/PrismLauncher](https://img.shields.io/reddit/subreddit-subscribers/prismlauncher?style=for-the-badge&logo=reddit)](https://prismlauncher.org/reddit)
+</td>
+</tr>
+</table>
 
-## Translations
+<br>
 
-The translation effort for Prism Launcher is hosted on [Weblate](https://hosted.weblate.org/projects/prismlauncher/launcher/) and information about translating Prism Launcher is available at <https://github.com/PrismLauncher/Translations>.
+## 🎮 About Flexium
 
-## Building
+> **Flexium** is a modern, lightweight, and customizable launcher for **Minecraft Java Edition** — built for players who want full control without the clutter.
 
-If you want to build Prism Launcher yourself, check the [build instructions](https://prismlauncher.org/wiki/development/build-instructions).
+Create isolated instances, switch between mod loaders in seconds, and keep every setup — from vanilla survival to a heavily modded pack — completely self-contained.
 
-## Sponsors & Partners
+<br>
 
-We thank all the wonderful backers over at Open Collective! Support Prism Launcher by [becoming a backer](https://opencollective.com/prismlauncher).
+## ✨ Features
 
-[![OpenCollective Backers](https://opencollective.com/prismlauncher/backers.svg?width=890&limit=1000)](https://opencollective.com/prismlauncher#backers)
+<table>
+<tr>
+<td width="33%" align="center">
 
-Thanks to JetBrains for providing us a few licenses for all their products, as part of their [Open Source program](https://www.jetbrains.com/opensource/).
+### 🎮
+**Minecraft Java Edition**
+Full native support for launching and managing the game
 
-<a href="https://jb.gg/OpenSource">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://www.jetbrains.com/company/brand/img/logo_jb_dos_4.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://resources.jetbrains.com/storage/products/company/brand/logos/jetbrains.svg">
-  <img alt="JetBrains logo" src="https://resources.jetbrains.com/storage/products/company/brand/logos/jetbrains.svg" width="40%">
-</picture>
-</a>
+</td>
+<td width="33%" align="center">
 
-Thanks to Weblate for hosting our translation efforts.
+### 📦
+**Instance Management**
+Isolated setups with their own versions, mods, and configs
 
-<a href="https://hosted.weblate.org/engage/prismlauncher/">
-<img src="https://hosted.weblate.org/widgets/prismlauncher/-/open-graph.png" alt="Translation status" width="300" />
-</a>
+</td>
+<td width="33%" align="center">
 
-Thanks to Netlify for providing us their excellent web services, as part of their [Open Source program](https://www.netlify.com/open-source/).
+### 🧩
+**All Major Loaders**
+Fabric, Forge, Quilt & NeoForge — fully supported
 
-<a href="https://www.netlify.com"> <img src="https://www.netlify.com/v3/img/components/netlify-color-accent.svg" alt="Deploys by Netlify" /> </a>
+</td>
+</tr>
+<tr>
+<td width="33%" align="center">
 
-Thanks to the awesome people over at [MacStadium](https://www.macstadium.com/), for providing M1-Macs for development purposes!
+### ☕
+**Java Runtime Manager**
+Automatic runtime selection per Minecraft version
 
-<a href="https://www.macstadium.com"><img src="https://uploads-ssl.webflow.com/5ac3c046c82724970fc60918/5c019d917bba312af7553b49_MacStadium-developerlogo.png" alt="Powered by MacStadium" width="300"></a>
+</td>
+<td width="33%" align="center">
 
-## Forking/Redistributing/Custom builds policy
+### 🎨
+**Customizable UI**
+Tailor the interface to how you like to play
 
-You are free to fork, redistribute and provide custom builds as long as you follow the terms of the [license](LICENSE) (this is a legal responsibility), and if you made code changes rather than just packaging a custom build, please do the following as a basic courtesy:
+</td>
+<td width="33%" align="center">
 
-- Make it clear that your fork is not Prism Launcher and is not endorsed by or affiliated with the Prism Launcher project (<https://prismlauncher.org>).
-- Go through [CMakeLists.txt](CMakeLists.txt) and change Prism Launcher's API keys to your own or set them to empty strings (`""`) to disable them (this way the program will still compile but the functionality requiring those keys will be disabled).
+### 🚀
+**Performance First**
+Lightweight, fast, and built to stay out of your way
 
-If you have any questions or want any clarification on the above conditions please make an issue and ask us.
+</td>
+</tr>
+</table>
 
-If you are just building Prism Launcher for your distribution, please make sure to set the `Launcher_BUILD_PLATFORM` to a slug representing your distribution. Examples are `archlinux`, `fedora` and `nixpkgs`.
+<br>
 
-Note that if you build this software without removing the provided API keys in [CMakeLists.txt](CMakeLists.txt) you are accepting the following terms and conditions:
+## 🧩 Mod Loader Support
 
-- [Microsoft Identity Platform Terms of Use](https://docs.microsoft.com/en-us/legal/microsoft-identity-platform/terms-of-use)
-- [CurseForge 3rd Party API Terms and Conditions](https://support.curseforge.com/en/support/solutions/articles/9000207405-curse-forge-3rd-party-api-terms-and-conditions)
+<div align="center">
 
-If you do not agree with these terms and conditions, then remove the associated API keys from the [CMakeLists.txt](CMakeLists.txt) file by setting them to an empty string (`""`).
+| Loader | Status | Loader | Status |
+|:------:|:------:|:------:|:------:|
+| **Vanilla** | ✅ | **Quilt** | ✅ |
+| **Fabric** | ✅ | **NeoForge** | ✅ |
+| **Forge** | ✅ | | |
 
-## License [![https://github.com/PrismLauncher/PrismLauncher/blob/develop/LICENSE](https://img.shields.io/github/license/PrismLauncher/PrismLauncher?label=License&logo=gnu&color=C4282D)](LICENSE)
+</div>
 
-All launcher code is available under the GPL-3.0-only license.
+<br>
 
-The logo and related assets are under the CC BY-SA 4.0 license.
+## 📦 Instance System
+
+Keep every Minecraft setup completely separate. Each instance carries its **own**:
+
+`Minecraft version` · `Mod loader` · `Mods` · `Resource packs` · `Shader packs` · `Java runtime` · `RAM allocation` · `Launch config`
+
+```text
+Flexium
+├── 🌿 Vanilla Survival
+├── 🧵 Fabric Modded
+├── 🔨 Forge 1.20.1
+├── ⚡ NeoForge
+└── 📦 Custom Modpack
+```
+
+<br>
+
+## ☕ Java Runtime Management
+
+Flexium automatically detects and manages the correct Java runtime for each Minecraft version — no manual installs, no version-mismatch errors.
+
+<br>
+
+## 📥 Game File Management
+
+Flexium handles everything Minecraft needs behind the scenes:
+
+| | |
+|---|---|
+| 📄 | Version manifests |
+| 💾 | Client files |
+| 📚 | Libraries & natives |
+| 🖼️ | Assets |
+| ⚙️ | Runtime components |
+
+<br>
+
+## 💻 Installation
+
+> Official builds will be linked here once a release is published.
+
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+cd YOUR_REPO
+
+# Install dependencies
+# TODO: add your build/setup commands here
+
+# Run Flexium
+# TODO: add your run command here
+```
+
+<details>
+<summary><b>📋 Requirements</b></summary>
+<br>
+
+- **OS:** TODO — Windows / macOS / Linux
+- **Runtime:** TODO — e.g. Java 17+, Node.js, etc.
+
+</details>
+
+<br>
+
+## 🐛 Bug Reports
+
+Found a bug? [Open an issue](YOUR_ISSUES_LINK) with:
+
+- ✅ Flexium version
+- ✅ Operating system
+- ✅ Minecraft version & mod loader
+- ✅ Steps to reproduce
+- ✅ Logs / screenshots
+
+<br>
+
+## 🤝 Contributing
+
+Contributions are welcome and appreciated!
+
+```bash
+1. Fork the repository
+2. git checkout -b feature/your-feature
+3. Commit your changes
+4. Push and open a Pull Request
+```
+
+For major changes, please open an issue first to discuss what you'd like to change.
+
+<br>
+
+## 🚀 Roadmap
+
+- [ ] 🟪 Modrinth integration
+- [ ] 🟧 CurseForge integration
+- [ ] 🧰 Advanced mod manager
+- [ ] 🌈 Shader manager
+- [ ] 🖼️ Resource pack manager
+- [ ] 🎨 Custom themes
+- [ ] 📊 Performance monitoring
+- [ ] 🔐 Additional authentication options
+- [ ] 🖥️ Expanded platform support
+
+<br>
+
+## 🌐 Community
+
+<div align="center">
+
+[![Website](https://img.shields.io/badge/🌐_Visit_Official_Website-8A2BE2?style=for-the-badge&labelColor=1a1a1a)](YOUR_OFFICIAL_WEBSITE_LINK)
+
+[![Discord Banner](https://img.shields.io/badge/💬_Join_the_Flexium_Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=1a1a1a)](YOUR_DISCORD_INVITE_LINK)
+
+</div>
+
+Join for announcements, dev updates, bug reports, feature discussions, and release notifications.
+
+<br>
+
+## 📄 License
+
+Licensed under **TODO: License Name** — see [LICENSE](LICENSE) for details.
+
+<br>
+
+## ⚠️ Disclaimer
+
+Flexium is an independent, community-driven project.
+**Not affiliated with, endorsed by, or sponsored by Mojang Studios or Microsoft.** Minecraft is a trademark of Mojang Studios.
+
+<br>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+
+<br><br>
+
+**Flexium**
+*Simple. Fast. Flexible.*
+
+<sub>Made with 💜 for the Minecraft community</sub>
+
+</div>
